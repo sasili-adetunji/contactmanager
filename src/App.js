@@ -1,10 +1,14 @@
 import React from 'react';
 import './App.css';
+import Contact from './components/Contact';
+import Header from './components/Header';
 
 function App() {
   return (
     <div className="App">
-      <h1>App Components</h1>
+      <Header branding="Contact Manager"/>
+      <Contact name="John Doe" email="jdoe@gmail.com" phone="08037817325" />
+      <Contact name="Karen Smith" email="ksmith@gmail.com" phone="090372873482" />
     </div>
   );
 }
